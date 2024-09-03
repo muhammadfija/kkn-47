@@ -356,3 +356,32 @@ function showSlide10() {
   }
   slides10[slideIndex10].classList.add("active");
 }
+
+$(document).ready(function(){
+  $('.slide').slick({
+      slidesToShow: 3, // Default to showing 3 slides
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000
+  });
+
+  // Media query logic to change slidesToShow based on screen width
+  function updateSlidesToShow() {
+      var slidesToShow;
+      if (window.matchMedia("(max-width: 300px)").matches) {
+          slidesToShow = 1;
+      } else if (window.matchMedia("(max-width: 500px)").matches) {
+          slidesToShow = 2;
+      } else {
+          slidesToShow = 3;
+      }
+      $('.slide').slick('slickSetOption', 'slidesToShow', slidesToShow, true);
+  }
+
+  // Run on page load
+  updateSlidesToShow();
+// Run on window resize
+$(window).resize(function() {
+  updateSlidesToShow();
+  });
+});

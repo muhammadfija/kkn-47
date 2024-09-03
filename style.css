@@ -597,26 +597,18 @@ body {
         margin: 5px 0;
     }
 
+    .slide .item:nth-child(2)
+    {
+        display: none;
+    }
+
     .container1 {
         height: 400px;
     }
 
     .slide .item {
-        width: 80px;
+        width: 0px;
         height: 80px;
-    }
-
-    .container1 .slide .item {
-        height: 100px;
-        position: absolute;
-        top: 50%;
-        transform: translate(0, -50%);
-        border-radius: 20px;
-        box-shadow: 0 30px 50px #505050;
-        background-position: 50% 50%;
-        background-size: cover;
-        display: inline-block;
-        transition: 0.5s;
     }
 
     .about-us {
