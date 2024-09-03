@@ -521,7 +521,10 @@ body {
 
     header nav ul li {
         margin-left: 0;
-        margin-bottom: 10px;
+        /* margin-bottom: 10px; */
+    }
+    header nav ul li a{
+        font-size: 10px;
     }
 
     .hero {
@@ -529,7 +532,12 @@ body {
     }
 
     .hero h2 {
-        font-size: 2em;
+        font-size: 1.8em;
+    }
+
+    header .logo{
+        width: 25px;
+        height: 20px;
     }
 
     .hero p {
