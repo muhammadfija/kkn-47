@@ -579,13 +579,13 @@ body {
 }
 
 /* Style untuk perangkat dengan lebar maksimal 480px (HP kecil) */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 300px) {
     .hero {
         padding: 30px;
     }
 
     .hero h2 {
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     .hero p {
