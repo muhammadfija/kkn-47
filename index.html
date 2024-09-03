@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMKM Desa Mangunjaya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+            <img class="logo" src="img/logo1.png" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="#">UMKM DESA MANGUNJAYA</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Selamat datang di UMKM Desa Mangunjaya, Tempat di mana kualitas produk lokal bertemu dengan keunikan budaya kami.</h2>
+        <!-- <a href="#" class="btn1">See More</a> -->
+    </section>
+
+    <section class="container">
+        <h2 class="section-title">UMKM Kami</h2>
+        <div class="umkm-list">
+            <div class="umkm-item">
+                <img src="img/kicimpring.jpg" alt="Kicimpring">
+                <h3>Kicimpring</h3>
+                <div class="umkm-location">
+                    <img src="img/location.png" alt="Location Icon">
+                    <p>RT/RW 03/06 Kp. Janggol</p>
+                </div>
+                <div class="umkm-contact">
+                    <img src="img/wa.png" alt="WhatsApp Icon">
+                    <p>083821996216</p>
+                </div>
+                <div class="container-na">
+                    <button class="button-na" onclick="openPopup1()">Lihat Selengkapnya</button>
+                </div>
+            </div>
+
+            <div class="popup" id="myPopup1">
+                <span class="close" onclick="closePopup1()">&times;</span>
+                <div class="popup-content">
+                    <div class="carousel-container">
+                        <div class="carousel-slide active">
+                            <img src="img/img produk/kicimpring1.png" alt="Image 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="img/img produk/kicimpring2.png" alt="Image 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="img/img produk/kicimpring3.png" alt="Image 3">
+                        </div>
+                    </div>
+                    <div class="carousel-buttons">
+                        <button class="carousel-button" onclick="prevSlide1()">&lt;</button>
+                        <button class="carousel-button" onclick="nextSlide1()">&gt;</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="umkm-item">
+                    <img src="img/kopi.jpg" alt="Kicimpring">
+                    <h3>Kopi</h3>
+                <div class="umkm-location">
+                    <img src="img/location.png" alt="Location Icon">
+                    <p>RT/RW 02/06 Kp. Janggol</p>
+                </div>
+                <div class="umkm-contact">
+                    <img src="img/wa.png" alt="WhatsApp Icon">
+                    <p>083822168909</p>
+                </div>
+                <div class="container-na">
+                    <button class="button-na" onclick="openPopup2()">Lihat Selengkapnya</button>
+                </div>
+            </div>
+
+            <div class="popup" id="myPopup2">
+                <span class="close" onclick="closePopup2()">&times;</span>
+                <div class="popup-content">
+                    <div class="carousel-container">
+                        <div class="carousel-slide active">
+                            <img src="img/img produk/kopi pak sulaiman.png" alt="Image 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="img/img produk/kopi2.png" alt="Image 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="img/img produk/kopi3.png" alt="Image 3">
+                        </div>
+                    </div>
+                    <div class="carousel-buttons">
+                        <button class="carousel-button" onclick="prevSlide2()">&lt;</button>
+                        <button class="carousel-button" onclick="nextSlide2()">&gt;</button>
+                    </div>
+                </div>
+            </div>
+            <div class="umkm-item">
+                    <img src="img/batagor.jpg" alt="Kicimpring">
+                    <h3>Batagor</h3>
+                <div class="umkm-location">
+                    <img src="img/location.png" alt="Location Icon">
+                    <p>RT/RW 03/06 Kp. Janggol</p>
+                </div>
+                <div class="umkm-contact">
+                    <img src="img/wa.png" alt="WhatsApp Icon">
+                    <p>083843874671</p>
+                </div>
+                <div class="container-na">
+                    <button class="button-na" onclick="openPopup3()">Lihat Selengkapnya</button>
+                </div>
+            </div>
+
+            <div class="popup" id="myPopup3">
+                <span class="close" onclick="closePopup3()">&times;</span>
+                <div class="popup-content">
+                    <div class="carousel-container">
+                        <div class="carousel-slide active">
+                            <img src="img/img produk/batagor1.png" alt="Image 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="img/img produk/batagor2.png" alt="Image 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="img/img produk/batagor3.png" alt="Image 3">
+                        </div>
+                    </div>
+                    <div class="carousel-buttons">
+                        <button class="carousel-button" onclick="prevSlide3()">&lt;</button>
+                        <button class="carousel-button" onclick="nextSlide3()">&gt;</button>
+                    </div>
+                </div>
+            </div>
+
+        <div class="umkm-list">
+            <div class="umkm-item">
+                    <img src="img/anyaman.jpg" alt="Kicimpring">
+                    <h3>Anyaman</h3>
+                <div class="umkm-location">
+                    <img src="img/location.png" alt="Location Icon">
+                    <p>RT/RW 01/05 Kp.Waregu </p>
+                </div>
+                <div class="umkm-contact">
+                    <img src="img/wa.png" alt="WhatsApp Icon">
+                    <p>-</p>
+                </div>
+                <div class="container-na">
+                    <button class="button-na" onclick="openPopup4()">Lihat Selengkapnya</button>
+                </div>
+            </div>
+            <div class="popup" id="myPopup4">
+                <span class="close" onclick="closePopup4()">&times;</span>
+                <div class="popup-content">
+                    <div class="carousel-container">
+                        <div class="carousel-slide active">
+                            <img src="img/img produk/anyaman1.png" alt="Image 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="img/img produk/anyaman2.png" alt="Image 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="img/img produk/anyaman3.png" alt="Image 3">
+                        </div>
+                    </div>
+                    <div class="carousel-buttons">
+                        <button class="carousel-button" onclick="prevSlide4()">&lt;</button>
+                        <button class="carousel-button" onclick="nextSlide4()">&gt;</button>
+                    </div>
+                </div>
+            </div>
+            <div class="umkm-item">
+                    <img src="img/dorokdok.jpg" alt="Kicimpring">
+                    <h3>Dorokdok</h3>
+                <div class="umkm-location">
+                    <img src="img/location.png" alt="Location Icon">
+                    <p>RT/RW 01/01 Kp.Sukamanah </p>
+                </div>
+                <div class="umkm-contact">
+                    <img src="img/wa.png" alt="WhatsApp Icon">
+                    <p>083110775045</p>
+                </div>
+                <div class="container-na">
+                    <button class="button-na" onclick="openPopup5()">Lihat Selengkapnya</button>
+                </div>
+            </div>
+            <div class="popup" id="myPopup5">
+                <span class="close" onclick="closePopup5()">&times;</span>
+                <div class="popup-content">
+                    <div class="carousel-container">
+                        <div class="carousel-slide active">
+                            <img src="img/img produk/dorokdok1.png" alt="Image 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="img/img produk/dorokdok2.png" alt="Image 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="img/img produk/dorokdok3.png" alt="Image 3">
+                        </div>
+                    </div>
+                    <div class="carousel-buttons">
+                        <button class="carousel-button" onclick="prevSlide5()">&lt;</button>
+                        <button class="carousel-button" onclick="nextSlide5()">&gt;</button>
+                    </div>
+                </div>
+            </div>
+            <div class="umkm-item">
+                    <img src="img/telur asin ibu cici.jpg" alt="Kicimpring">
+                    <h3>Telor Asin</h3>
+                <div class="umkm-location">
+                    <img src="img/location.png" alt="Location Icon">
+                    <p>RT/RW 01/01 Kp.Cijengkol</p>
+                </div>
+                <div class="umkm-contact">
+                    <img src="img/wa.png" alt="WhatsApp Icon">
+                    <p>082295165186</p>
+                </div>
+                <div class="container-na">
+                    <button class="button-na" onclick="openPopup6()">Lihat Selengkapnya</button>
+                </div>
+            </div>
+            <div class="popup" id="myPopup6">
+                <span class="close" onclick="closePopup6()">&times;</span>
+                <div class="popup-content">
+                    <div class="carousel-container">
+                        <div class="carousel-slide active">
+                            <img src="img/img produk/telur asin ibu cici1.png" alt="Image 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="img/img produk/telur asin ibu cici2.png" alt="Image 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="img/img produk/telur asin ibu cici3.png" alt="Image 3">
+                        </div>
+                    </div>
+                    <div class="carousel-buttons">
+                        <button class="carousel-button" onclick="prevSlide6()">&lt;</button>
+                        <button class="carousel-button" onclick="nextSlide6()">&gt;</button>
+                    </div>
+                </div>
+            </div>
+
+        <div class="umkm-list">
+            <div class="umkm-item">
+                    <img src="img/telur asin pak haris.jpg" alt="Kicimpring">
+                    <h3>Telur Asin</h3>
+                <div class="umkm-location">
+                    <img src="img/location.png" alt="Location Icon">
+                    <p>RW 11 Kp.Sukamanah</p>
+                </div>
+                <div class="umkm-contact">
+                    <img src="img/wa.png" alt="WhatsApp Icon">
+                    <p>082840048093</p>
+                </div>
+                <div class="container-na">
+                    <button class="button-na" onclick="openPopup7()">Lihat Selengkapnya</button>
+                </div>
+            </div>
+            <div class="popup" id="myPopup7">
+                <span class="close" onclick="closePopup7()">&times;</span>
+                <div class="popup-content">
+                    <div class="carousel-container">
+                        <div class="carousel-slide active">
+                            <img src="img/img produk/telur asin pak haris1.png" alt="Image 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="img/img produk/telur asin pak haris2.png" alt="Image 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="img/img produk/telur asin pak haris 3.png" alt="Image 3">
+                        </div>
+                    </div>
+                    <div class="carousel-buttons">
+                        <button class="carousel-button" onclick="prevSlide7()">&lt;</button>
+                        <button class="carousel-button" onclick="nextSlide7()">&gt;</button>
+                    </div>
+                </div>
+            </div>
+            <div class="umkm-item">
+                    <img src="img/kue balok ibu yati.jpg" alt="Kicimpring">
+                    <h3>Kue Balok</h3>
+                <div class="umkm-location">
+                    <img src="img/location.png" alt="Location Icon">
+                    <p>RT/RW 01/02 Kp.Cijengkol</p>
+                </div>
+                <div class="umkm-contact">
+                    <img src="img/wa.png" alt="WhatsApp Icon">
+                    <p>-</p>
+                </div>
+                <div class="container-na">
+                    <button class="button-na" onclick="openPopup8()">Lihat Selengkapnya</button>
+                </div>
+            </div>
+            <div class="popup" id="myPopup8">
+                <span class="close" onclick="closePopup8()">&times;</span>
+                <div class="popup-content">
+                    <div class="carousel-container">
+                        <div class="carousel-slide active">
+                            <img src="img/img produk/kue balok ibu yati (1).png" alt="Image 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="img/img produk/kue balok ibu yati (3).png" alt="Image 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="img/img produk/kue balok ibu yati (2).png" alt="Image 3">
+                        </div>
+                    </div>
+                    <div class="carousel-buttons">
+                        <button class="carousel-button" onclick="prevSlide8()">&lt;</button>
+                        <button class="carousel-button" onclick="nextSlide8()">&gt;</button>
+                    </div>
+                </div>
+            </div>
+            <div class="umkm-item">
+                    <img src="img/opak aci bu eti.jpg" alt="Kicimpring">
+                    <h3>Opak Aci</h3>
+                <div class="umkm-location">
+                    <img src="img/location.png" alt="Location Icon">
+                    <p>RT/RW 03/11 Kp.Bangsoreang</p>
+                </div>
+                <div class="umkm-contact">
+                    <img src="img/wa.png" alt="WhatsApp Icon">
+                    <p>083844389271</p>
+                </div>
+                <div class="container-na">
+                    <button class="button-na" onclick="openPopup9()">Lihat Selengkapnya</button>
+                </div>
+            </div>
+            <div class="popup" id="myPopup9">
+                <span class="close" onclick="closePopup9()">&times;</span>
+                <div class="popup-content">
+                    <div class="carousel-container">
+                        <div class="carousel-slide active">
+                            <img src="img/img produk/opak aci1.png" alt="Image 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="img/img produk/opak aci2.png" alt="Image 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="img/img produk/opak aci3.png" alt="Image 3">
+                        </div>
+                    </div>
+                    <div class="carousel-buttons">
+                        <button class="carousel-button" onclick="prevSlide9()">&lt;</button>
+                        <button class="carousel-button" onclick="nextSlide9()">&gt;</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <section class="container1">
+        <h2 class="section-title">Produk Spesial kami</h2>
+        <div class="slide">
+            <div class="item" style="background-image: url(img/kicimpring.jpg);">
+                <div class="content">
+                    <div class="name">Kopi</div>
+                    <div class="des">Lorem ipsum dolor</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(img/kopi.jpg);">
+                <div class="content">
+                    <div class="name">Kopi</div>
+                    <div class="des">Lorem Ipsum dolor</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(img/batagor.jpg);">
+                <div class="content">
+                    <div class="name">Kopi</div>
+                    <div class="des">Lorem Ipsum dolor</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(img/telur\ asin\ ibu\ cici.jpg);">
+                <div class="content">
+                    <div class="name">Kopi</div>
+                    <div class="des">Lorem Ipsum dolor</div>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(img/anyaman.jpg);">
+                <div class="content">
+                    <div class="name">Kopi</div>
+                    <div class="des">Lorem Ipsum dolor</div>
+                    <button>See More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="button">
+            <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <h3>About Us</h3>
+        <p>Desa Mangunjaya Pada awalnya merupakan Bagian dari wilayah Desa Batukarut Kecamatan pameungpeuk Kabupaten Bandung dan terjadi Pemekaran Desa pada Tahun 1983, <br>yang  bergabung dengan Kantor Perwakilan Desa Mangunjaya, yang sekarang telah resmi menjadi Kantor Desa Mangunjaya.
+        <br>Sampai Dengan saat ini Desa Mangunjaya mempunyai wilayah yang terdiri dari Empat wilayah dusun, <br>14 wilayah RW dan 42 Wilayah RT.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 UMKM Desa Mangunjaya | KKN47.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
